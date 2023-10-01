@@ -1,5 +1,6 @@
-1e3f3132851ad86bcd55e39bf6bc9822 *DESCRIPTION
+f1ba4020271a14e4f1470738ed665dc0 *DESCRIPTION
 79cb6e589daecdb2d8cc911fdc698376 *NAMESPACE
+95f49148ef924801b2279973dd785fd7 *NEWS
 45336051ca2c9ed46420e69b6a1da121 *R/A_BurdenKernel.R
 2bc358a06faf5e6b01abd2a6021afbdf *R/A_Kernel.R
 beae441800c9af958eb05ee122b4f378 *R/A_LinearKernel.R
@@ -13,7 +14,6 @@ d5c8e2daad26f58f5752588f0cad2d7c *R/C_GaussianTrait.R
 89816a3d348fa392795b5943166b6ceb *R/calcLocalKernel.R
 a9ae895b837fb3f48a1e2fd85d9617ab *R/distanceMatrix.R
 a248891360e94609fa98ab448b3f5f84 *R/mainCode.R
-4a9f6833452e57edd307fdc0ad988da2 *R/point.R
+ec510af1ca405a5c06b3234c0680acc4 *R/point.R
 150be2a9e63790cb936423ec136745ab *R/pvResamp.R
-e2a05623cc5c4965177e237414c4becc *man/POINT-package.Rd
-3f6fae015984ab4facf087043cb622eb *man/point.Rd
+e052ed18efe26f5fb897572ef9e12235 *man/point.Rd

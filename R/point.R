@@ -68,7 +68,7 @@
 #'
 #'   #no non-genetic covariates
 #'   X <- NULL
-#'   mu <- -0.05 + snp \%*\% betaG
+#'   mu <- -0.05 + snp %*% betaG
 #'
 #'   pryy <- exp(mu)/(1+exp(mu))
 #'   yy <- sapply(X = pryy, FUN = stats::rbinom, n = 1, size = 1)

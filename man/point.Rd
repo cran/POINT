@@ -4,10 +4,22 @@
 \alias{point}
 \title{Protein Structure Guided Local Test}
 \usage{
-point(yy, X, snp, proteinCoord, ..., trait = "binomial", cValues = c(0,
-  0.1, 0.2, 0.3, 0.4, 0.5), weighted = TRUE, weight = NULL,
-  kernel = "linear", d = NULL, pvMethod = "davies",
-  nperturb = 1000, verbose = TRUE)
+point(
+  yy,
+  X,
+  snp,
+  proteinCoord,
+  ...,
+  trait = "binomial",
+  cValues = c(0, 0.1, 0.2, 0.3, 0.4, 0.5),
+  weighted = TRUE,
+  weight = NULL,
+  kernel = "linear",
+  d = NULL,
+  pvMethod = "davies",
+  nperturb = 1000,
+  verbose = TRUE
+)
 }
 \arguments{
 \item{yy}{numeric vector; phenotype values.}
@@ -93,7 +105,7 @@ A rare variant association test that utilizes protein tertiary structure to
 
   #no non-genetic covariates
   X <- NULL
-  mu <- -0.05 + snp \\\%*\\\% betaG
+  mu <- -0.05 + snp \%*\% betaG
 
   pryy <- exp(mu)/(1+exp(mu))
   yy <- sapply(X = pryy, FUN = stats::rbinom, n = 1, size = 1)
